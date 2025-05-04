@@ -6,10 +6,10 @@ Proyek ini mengimplementasikan sistem navigasi robot dalam gedung berbentuk kubu
 ## Algoritma: Breadth-First Search (BFS)
 Implementasi menggunakan BFS karena:
 
-✔ **Menjamin jalur terpendek** pada grid tanpa bobot  
-✔ **Eksplorasi level-per-level** memastikan optimalitas  
-✔ **Efisien untuk ruang terbatas** (grid 10x10x10)  
-✔ **Implementasi sederhana** menggunakan struktur data antrian  
+- **Menjamin jalur terpendek** pada grid tanpa bobot  
+- **Eksplorasi level-per-level** memastikan optimalitas  
+- **Efisien untuk ruang terbatas** (grid 10x10x10)  
+- **Implementasi sederhana** menggunakan struktur data antrian  
 
 ## Fitur Utama
 - Pemodelan gedung 3D menggunakan array numpy
@@ -68,4 +68,4 @@ Untuk ruang terbatas 10x10x10 ini, BFS memberikan keseimbangan terbaik antara ke
 ## Kesimpulan
 Implementasi ini menyediakan solusi efisien untuk pencarian jalur 3D dalam ruang terbatas menggunakan BFS. Algoritma ini menjamin jalur optimal sambil mempertahankan visualisasi yang jelas dan kemampuan pengujian yang fleksibel.
 
-Untuk ruang pencarian lebih besar atau pergerakan dengan biaya kompleks, pertimbangkan untuk beralih ke algoritma A* atau Dijkstra.
+
